@@ -89,3 +89,19 @@ ul{
     outline: 0;
     transition: background-colr 2s ease-out;
 }
+
+/* LARGE SCREENS */
+@media(min-width:700px){
+   .wrapper{
+       display: grid;
+       grid-template-columns: 1fr 2fr;
+   }
+
+   .wrapper > *{
+       padding: 2em;
+   }
+
+   .company-info h3, .company-info ul, .brand{
+       text-align: left;
+   }
+}
